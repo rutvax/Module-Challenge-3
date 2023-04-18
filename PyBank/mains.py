@@ -35,7 +35,7 @@ with open(budget_csv, 'r') as csv_file:
     month_max_increase = monthly_profit_change.index(max(monthly_profit_change))+1 # +1 adding one to index to give actual number of month
     month_min_increase = monthly_profit_change.index(min(monthly_profit_change))+1 # +1 adding one to index to give actual number of month
 
-#Printing Analysis 
+    #Printing Analysis 
 
     print("Financial Analysis")
     print("----------------------------")
@@ -52,8 +52,8 @@ financial_output = os.path.join('PyBank','Analysis','Financial_Analysis_Sum.txt'
 
 with open(financial_output,"w") as file:
     
-# Write methods to print to Financial_Analysis_Summary 
-# ("\n") lets you skip to the next line 
+    # Write methods to print to Financial_Analysis_Summary 
+    # ("\n") lets you skip to the next line 
     file.write("Financial Analysis")
     file.write('\n')
     file.write("----------------------------")

@@ -56,7 +56,7 @@ print(f"Winner: {winner}")
 print("-------------------------")
 
 
-#path for write
+#path for write 
 
 election_output = os.path.join('PyPoll', 'Analysis', 'election_data.txt')
 
